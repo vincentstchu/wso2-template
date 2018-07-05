@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="test-RabbitMS" groupId="com.example.wso2-esb-template.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/test-RabbitMS.xml</file>
+    </artifact>
+    <artifact name="RabbitMS" groupId="com.example.wso2-esb-template.message-store" version="1.0.0" type="synapse/message-store" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/message-stores/RabbitMS.xml</file>
+    </artifact>
+    <artifact name="RabbitMQ-Listener" groupId="com.example.wso2-esb-template.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/RabbitMQ-Listener.xml</file>
+    </artifact>
+    <artifact name="RabbitMQ_endpoint" groupId="com.example.wso2-esb-template.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/RabbitMQ_endpoint.xml</file>
+    </artifact>
+    <artifact name="Inbound_RabbitMQ" groupId="com.example.wso2-esb-template.inbound-endpoint" version="1.0.0" type="synapse/inbound-endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/inbound-endpoints/Inbound_RabbitMQ.xml</file>
+    </artifact>
+    <artifact name="Sequence_inboundEP" groupId="com.example.wso2-esb-template.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/Sequence_inboundEP.xml</file>
+    </artifact>
+    <artifact name="API-demo" groupId="com.example.wso2-esb-template.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/API-demo.xml</file>
+    </artifact>
+    <artifact name="API-demo2" groupId="com.example.wso2-esb-template.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/API-demo2.xml</file>
+    </artifact>
+</artifacts>

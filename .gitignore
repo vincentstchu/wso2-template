@@ -1,0 +1,7 @@
+RemoteSystemsTempFiles/
+.metadata/
+.tmp/
+.project
+.classpath
+*.car
+.settings
