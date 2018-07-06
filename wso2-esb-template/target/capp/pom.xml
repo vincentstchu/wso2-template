@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example.wso2-esb-template</groupId>
+  <artifactId>wso2-esb-template_module</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>wso2-esb-template_module</name>
+  <description>wso2-esb-template_module</description>
+  <modules>
+    <module>artifacts/api/test-RabbitMS</module>
+    <module>artifacts/api/API-demo</module>
+    <module>artifacts/api/API-demo2</module>
+    <module>artifacts/message-store/RabbitMS</module>
+    <module>artifacts/endpoint/RabbitMQ_endpoint</module>
+    <module>artifacts/proxy-service/RabbitMQ-Listener</module>
+    <module>artifacts/sequence/Sequence_inboundEP</module>
+    <module>artifacts/inbound-endpoint/Inbound_RabbitMQ</module>
+  </modules>
+</project>

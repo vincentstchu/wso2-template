@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/demo2" name="API-demo2" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/get">
+        <inSequence>
+            <log level="full"/>
+            <payloadFactory media-type="xml">
+                <format>
+                    <response>getsuccess</response>
+                </format>
+                <args/>
+            </payloadFactory>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/post">
+        <inSequence>
+            <log level="full"/>
+            <payloadFactory media-type="xml">
+                <format>
+                    <response>postsuccess</response>
+                </format>
+                <args/>
+            </payloadFactory>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

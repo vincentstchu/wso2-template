@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint name="RabbitMQ_endpoint" xmlns="http://ws.apache.org/ns/synapse">
+    <address uri="abbitmq:/AMQPProxy?rabbitmq.server.host.name=10.211.55.15&amp;rabbitmq.server.port=5672&amp;rabbitmq.server.user.name=admin&amp;rabbitmq.server.password=admin&amp;rabbitmq.queue.name=test_wso2_in&amp;rabbitmq.exchange.name=test_exchange_wso2"/>
+</endpoint>

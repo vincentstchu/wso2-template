@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="RabbitMQ-Listener" startOnLoad="true" transports="rabbitmq" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <log level="full"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+    <parameter name="rabbitmq.exchange.name">test_exchange_wso2</parameter>
+    <parameter name="rabbitmq.queue.auto.ack">true</parameter>
+    <parameter name="rabbitmq.queue.name">test_wso2_out</parameter>
+    <parameter name="rabbitmq.connection.factory">AMQPConnectionFactory</parameter>
+</proxy>
